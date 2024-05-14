@@ -1,0 +1,26 @@
+{
+  "name": "simple-date-helpers",
+  "version": "0.0.1",
+  "description": "Date utility functions which might come in handy",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dipeshtamang07/simple-date-helpers"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "date",
+    "helpers",
+    "utility"
+  ],
+  "author": "jsnerd",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
